@@ -34,7 +34,15 @@ body{
   background-color: darkgray;
   /* margin-bottom: 20px; */
 }
-.operator:hover, .clear:hover, .digit:hover, .decimal:hover {
+.clear {
+  background-color: red;
+  color: white;
+  border: none;
+}
+.clear:hover{
+  background-color: rgb(249, 81, 81);
+}
+.operator:hover, .digit:hover, .decimal:hover {
   background-color: rgb(235, 235, 235);
 }
 
@@ -48,4 +56,82 @@ section {
 
 #equal-sign {
   height: 100px;
+  color: white;
+  background-color: green;
+  border: none;
+}
+
+#equal-sign:hover {
+background-color: rgb(77, 172, 77);
+}
+
+@media (min-width: 375px) and (max-width: 549px){
+
+  #container{
+    width: 200px;
+    height: 300px;
+    margin-left: 30px;
+  }
+  
+  #result{
+    width: 150px;
+    font-size: large;
+    margin-left: 25px;
+  }
+
+  .calculator-keys{
+    margin-left: 30px;
+    
+  }
+  
+  .operator, .clear, .digit, .decimal{
+    width: 25px;
+    height: 20px;
+    font-size: x-small;
+    margin-right: 12px;
+  }
+
+  #equal-sign {
+    height: 50px;
+  }
+}
+
+@media (min-width: 550px) and (max-width: 699px){
+  #container{
+    width: 300px;
+    height: 300px;
+  }
+  
+  #result{
+    width: 200px;
+    font-size: large;
+  }
+  
+  .operator, .clear, .digit, .decimal{
+    width: 30px;
+    height: 20px;
+    font-size: small;
+    margin-right: 20px;
+  }
+
+  #equal-sign {
+    height: 60px;
+  }
+}
+
+@media (min-width: 700px) and (max-width: 849px){
+  #container{
+    width: 400px;
+    height: 400px;
+  }
+  
+  #result{
+    width: 300px;
+    font-size: large;
+  }
+  
+  .operator, .clear, .digit, .decimal{
+    width: 50px;
+    height: 30px;
+  }
 }
