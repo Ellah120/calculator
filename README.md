@@ -1,1 +1,1 @@
-# Application link: https://calculator-ee.herokuapp.com/
+# Application link: https://calculator-oge.herokuapp.com/
