@@ -1,1 +1,1 @@
-# Application link: https://calculator-oge.herokuapp.com/
+# Application link: https://legendary-frangipane-e2db31.netlify.app/
